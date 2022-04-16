@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva';
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background: rgba(0,2,63,0.9);
+    text-align: center;
+}
+.sidebar img{
+    width: 22px;
+    display: block;
+    margin: 50px auto 80px;
+    cursor: pointer;
+}
+.social-media{
+    width: 100%;
+    height: 50%;
+    background: #ed383d;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+.social-media img{
+    width: 30px;
+    margin: 15px;
+}
+.container{
+    background: rgba(0,2,63,0.9);
+    width: 53%;
+    height: 100vh;
+    position: relative;
+}
+.container nav{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.si{
+    width: 22px;
+    margin: 10px 60px;
+    cursor: pointer;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    width: 130px;
+    cursor:pointer;
+}
+.info{
+    padding: 50px 18%;
+    color: #fff;
+}
+.info h3{
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.info h1{
+    font-size: 92px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+.info p{
+    color: #999;
+    font-family: sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.row .line{
+    background: #999;
+    height: 2px;
+    width: 80%;
+    border-radius: 2px;
+}
+.row .line span{
+    background: #ed383d;
+    height: 100%;
+    width: 50%;
+    display: block;
+}
+.row h2{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
